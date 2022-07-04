@@ -1,0 +1,1250 @@
+Last login: Sun Jul  3 21:50:29 on ttys000
+test@tests-MacBook-Pro ~ % git clone https://github.com/public-awesome/stargaze-tools Cosmic-Emotions 
+cd desktop/Cosmic-Emotions
+yarn install
+Cloning into 'Cosmic-Emotions'...
+remote: Enumerating objects: 1644, done.
+remote: Counting objects: 100% (152/152), done.
+remote: Compressing objects: 100% (76/76), done.
+remote: Total 1644 (delta 81), reused 133 (delta 74), pack-reused 1492
+Receiving objects: 100% (1644/1644), 778.01 KiB | 383.00 KiB/s, done.
+Resolving deltas: 100% (1020/1020), done.
+zsh: command not found: yarn
+test@tests-MacBook-Pro Cosmic-Emotions % cd ..
+test@tests-MacBook-Pro desktop % cd ..
+test@tests-MacBook-Pro ~ % brew install yarn
+Running `brew update --preinstall`...
+==> Auto-updated Homebrew!
+Updated 3 taps (ovrclk/tap, homebrew/core and homebrew/cask).
+==> New Formulae
+adamstark-audiofile        ijq                        lunar-date                 qbe
+astro                      install-peerdeps           mabel                      redis@6.2
+aws-nuke                   iptables                   maclaunch                  req
+aztfy                      jackett                    mariadb@10.7               stencil
+cfonts                     jaq                        markdown-toc               swtpm
+czg                        kics                       mcap                       synergy-core
+doggo                      kt-connect                 nali                       teller
+dump1090-mutability        leapp-cli                  nb                         toxcore
+dumpling                   levant                     nftables                   tremor-runtime
+editorconfig-checker       lexicon                    oak                        trzsz-go
+eget                       lgeneral                   ohdear-cli                 tuc
+evernote-backup            libnetfilter_conntrack     opencl-headers             unisonlang
+fastnetmon                 libnftnl                   pacmc                      vectorscan
+flock                      libnl                      pg_cron                    verapdf
+glider                     libobjc2                   pg_partman                 webkitgtk
+gnustep-base               libpython-tabulate         phrase-cli                 yorkie
+gold                       livekit                    pixie                      zx
+groestlcoin                livekit-cli                poac
+hwatch                     llvm@13                    podman-compose
+==> New Casks
+amazon-luna                         fly-key                             rockboxutility
+app-fair                            gama                                sol
+archy                               gama-jdk                            sonixd
+audiostellar                        gyroflow                            squash
+betterandbetter                     jpc-qlcolorcode                     tailscale
+betterdisplay                       localxpose                          tdr-kotelnikov
+bing-wallpaper                      mbcord                              tdr-nova
+cleaneronepro                       metadatics                          tdr-vos-slickeq
+cloud189                            miaoyan                             tmpdisk
+dixa                                orangedrangon-android-messages      twitch-studio
+dmg-canvas                          orion                               ui
+ecamm-live                          phpwebstudy                         weektodo
+elephicon                           plex-htpc                           wow
+fertigt-slate                       psst
+
+You have 6 outdated formulae installed.
+You can upgrade them with brew upgrade
+or list them with brew outdated.
+
+==> Downloading https://ghcr.io/v2/homebrew/core/yarn/manifests/1.22.19
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/yarn/blobs/sha256:79b90324a5365189a144b786e9bdb3bf32be3823
+==> Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/sha256:79b90324a5365189a144b7
+######################################################################## 100.0%
+==> Pouring yarn--1.22.19.all.bottle.tar.gz
+==> Caveats
+yarn requires a Node installation to function. You can install one with:
+  brew install node
+==> Summary
+🍺  /opt/homebrew/Cellar/yarn/1.22.19: 15 files, 5MB
+==> `brew cleanup` has not been run in the last 30 days, running now...
+Disable this behaviour by setting HOMEBREW_NO_INSTALL_CLEANUP.
+Hide these hints with HOMEBREW_NO_ENV_HINTS (see `man brew`).
+Removing: /Users/test/Library/Caches/Homebrew/akash--0.16.3.zip... (25MB)
+Removing: /Users/test/Library/Caches/Homebrew/brotli--1.0.9... (993.3KB)
+Removing: /Users/test/Library/Caches/Homebrew/c-ares--1.18.1_1... (156.7KB)
+Removing: /opt/homebrew/Cellar/ca-certificates/2022-02-01... (3 files, 213.4KB)
+Removing: /Users/test/Library/Caches/Homebrew/ca-certificates--2022-02-01... (120.8KB)
+Removing: /Users/test/Library/Caches/Homebrew/gdbm--1.23... (269.2KB)
+Removing: /Users/test/Library/Caches/Homebrew/gmp--6.2.1_1... (1006.7KB)
+Removing: /Users/test/Library/Caches/Homebrew/go--1.18.2... (168MB)
+Removing: /opt/homebrew/Cellar/icu4c/69.1... (259 files, 73.3MB)
+Removing: /Users/test/Library/Caches/Homebrew/icu4c--69.1... (27.3MB)
+Removing: /Users/test/Library/Caches/Homebrew/isl--0.24... (1.6MB)
+Removing: /Users/test/Library/Caches/Homebrew/libmpc--1.2.1... (120.0KB)
+Removing: /Users/test/Library/Caches/Homebrew/libnghttp2--1.46.0... (201KB)
+Removing: /Users/test/Library/Caches/Homebrew/libnghttp2--1.47.0... (202.4KB)
+Removing: /opt/homebrew/Cellar/libuv/1.43.0... (49 files, 3.5MB)
+Removing: /Users/test/Library/Caches/Homebrew/libuv--1.43.0... (1.3MB)
+Removing: /Users/test/Library/Caches/Homebrew/make--4.3... (346.3KB)
+Removing: /Users/test/Library/Caches/Homebrew/mpdecimal--2.5.1... (540.7KB)
+Removing: /Users/test/Library/Caches/Homebrew/mpfr--4.1.0... (1.2MB)
+Removing: /Users/test/Library/Caches/Homebrew/node--18.2.0... (12.7MB)
+Removing: /Users/test/Library/Caches/Homebrew/nvm--0.39.1_1... (45.6KB)
+Removing: /Users/test/Library/Caches/Homebrew/openssl@1.1--1.1.1o... (5MB)
+Removing: /Users/test/Library/Caches/Homebrew/openssl@1.1--1.1.1m... (5MB)
+Removing: /Users/test/Library/Caches/Homebrew/readline--8.1.2... (560.3KB)
+Removing: /opt/homebrew/Cellar/sqlite/3.38.0... (11 files, 4.4MB)
+Removing: /Users/test/Library/Caches/Homebrew/sqlite--3.38.0... (2MB)
+Removing: /Users/test/Library/Caches/Homebrew/xz--5.2.5... (414.8KB)
+Removing: /Users/test/Library/Caches/Homebrew/zstd--1.5.2... (842.7KB)
+Removing: /Users/test/Library/Caches/Homebrew/libmpc_bottle_manifest--1.2.1... (8.6KB)
+Removing: /Users/test/Library/Caches/Homebrew/nvm_bottle_manifest--0.39.1_1... (1.7KB)
+Removing: /Users/test/Library/Caches/Homebrew/brotli_bottle_manifest--1.0.9... (8.5KB)
+Removing: /Users/test/Library/Caches/Homebrew/node_bottle_manifest--17.6.0... (13.4KB)
+Removing: /Users/test/Library/Caches/Homebrew/gmp_bottle_manifest--6.2.1_1... (7.4KB)
+Removing: /Users/test/Library/Caches/Homebrew/gdbm_bottle_manifest--1.23... (6.1KB)
+Removing: /Users/test/Library/Caches/Homebrew/xz_bottle_manifest--5.2.5... (7.4KB)
+Removing: /Users/test/Library/Caches/Homebrew/go_bottle_manifest--1.17.7... (7.3KB)
+Removing: /Users/test/Library/Caches/Homebrew/libuv_bottle_manifest--1.43.0... (6.3KB)
+Removing: /Users/test/Library/Caches/Homebrew/ca-certificates_bottle_manifest--2022-02-01... (1.8KB)
+Removing: /Users/test/Library/Caches/Homebrew/make_bottle_manifest--4.3-1... (7.7KB)
+Removing: /Users/test/Library/Caches/Homebrew/openssl@1.1_bottle_manifest--1.1.1m... (7.6KB)
+Removing: /Users/test/Library/Caches/Homebrew/sqlite_bottle_manifest--3.38.0... (6.9KB)
+Removing: /Users/test/Library/Caches/Homebrew/c-ares_bottle_manifest--1.18.1_1... (6.3KB)
+Removing: /Users/test/Library/Caches/Homebrew/libnghttp2_bottle_manifest--1.46.0... (7.2KB)
+Removing: /Users/test/Library/Caches/Homebrew/icu4c_bottle_manifest--69.1... (7.9KB)
+Removing: /Users/test/Library/Caches/Homebrew/gcc_bottle_manifest--11.2.0_3-1... (9.9KB)
+Removing: /Users/test/Library/Caches/Homebrew/mpfr_bottle_manifest--4.1.0... (8.0KB)
+Removing: /Users/test/Library/Caches/Homebrew/python@3.9_bottle_manifest--3.9.10... (18.1KB)
+Removing: /Users/test/Library/Caches/Homebrew/mpdecimal_bottle_manifest--2.5.1... (6.9KB)
+Removing: /Users/test/Library/Caches/Homebrew/zstd_bottle_manifest--1.5.2... (6.4KB)
+Removing: /Users/test/Library/Caches/Homebrew/readline_bottle_manifest--8.1.2... (6.6KB)
+Removing: /Users/test/Library/Caches/Homebrew/isl_bottle_manifest--0.24... (7.6KB)
+Removing: /Users/test/Library/Caches/Homebrew/Cask/signal--5.33.0.dmg... (149MB)
+Removing: /Users/test/Library/Caches/Homebrew/Cask/wire--3.26.4145.pkg... (82.1MB)
+Removing: /Users/test/Library/Logs/Homebrew/coreutils... (64B)
+Removing: /Users/test/Library/Logs/Homebrew/gmp... (64B)
+Removing: /Users/test/Library/Logs/Homebrew/bash-git-prompt... (64B)
+Removing: /Users/test/Library/Logs/Homebrew/go... (64B)
+Removing: /Users/test/Library/Logs/Homebrew/gdbm... (64B)
+Removing: /Users/test/Library/Logs/Homebrew/mpdecimal... (64B)
+Removing: /Users/test/Library/Logs/Homebrew/libuv... (64B)
+Removing: /Users/test/Library/Logs/Homebrew/mpfr... (64B)
+Removing: /Users/test/Library/Logs/Homebrew/brotli... (64B)
+Removing: /Users/test/Library/Logs/Homebrew/icu4c... (64B)
+Removing: /Users/test/Library/Logs/Homebrew/akash... (112B)
+Removing: /Users/test/Library/Logs/Homebrew/readline... (64B)
+Removing: /Users/test/Library/Logs/Homebrew/gcc... (64B)
+Removing: /Users/test/Library/Logs/Homebrew/sqlite... (64B)
+Removing: /Users/test/Library/Logs/Homebrew/c-ares... (64B)
+Removing: /Users/test/Library/Logs/Homebrew/xz... (64B)
+Removing: /Users/test/Library/Logs/Homebrew/nvm... (64B)
+Removing: /Users/test/Library/Logs/Homebrew/libnghttp2... (64B)
+Removing: /Users/test/Library/Logs/Homebrew/ca-certificates... (64B)
+Removing: /Users/test/Library/Logs/Homebrew/make... (64B)
+Removing: /Users/test/Library/Logs/Homebrew/zstd... (64B)
+Removing: /Users/test/Library/Logs/Homebrew/isl... (64B)
+Removing: /Users/test/Library/Logs/Homebrew/openssl@1.1... (64B)
+Removing: /Users/test/Library/Logs/Homebrew/node... (64B)
+Removing: /Users/test/Library/Logs/Homebrew/python@3.9... (2 files, 2.5KB)
+Removing: /Users/test/Library/Logs/Homebrew/libmpc... (64B)
+Removing: /Users/test/Library/Logs/Homebrew/httrack... (64B)
+Pruned 0 symbolic links and 2 directories from /opt/homebrew
+test@tests-MacBook-Pro ~ % yarn add cosmwasm
+
+
+yarn add v1.22.19
+info No lockfile found.
+[1/4] 🔍  Resolving packages...
+[2/4] 🚚  Fetching packages...
+[3/4] 🔗  Linking dependencies...
+[4/4] 🔨  Building fresh packages...
+success Saved lockfile.
+success Saved 98 new dependencies.
+info Direct dependencies
+└─ cosmwasm@1.1.1
+info All dependencies
+├─ @babel/runtime@7.18.6
+├─ @confio/ics23@0.6.8
+├─ @cosmjs/cli@0.28.10
+├─ @cosmjs/cosmwasm-stargate@0.28.10
+├─ @cosmjs/faucet-client@0.28.10
+├─ @cosmjs/json-rpc@0.28.10
+├─ @cosmjs/ledger-amino@0.28.10
+├─ @cosmjs/socket@0.28.10
+├─ @ledgerhq/devices@5.51.1
+├─ @ledgerhq/hw-transport@5.51.1
+├─ @ledgerhq/logs@5.50.0
+├─ @noble/hashes@1.1.2
+├─ @protobufjs/aspromise@1.1.2
+├─ @protobufjs/base64@1.1.2
+├─ @protobufjs/codegen@2.0.4
+├─ @protobufjs/eventemitter@1.1.0
+├─ @protobufjs/fetch@1.1.0
+├─ @protobufjs/float@1.0.2
+├─ @protobufjs/path@1.1.2
+├─ @protobufjs/pool@1.1.0
+├─ @protobufjs/utf8@1.1.0
+├─ @types/long@4.0.2
+├─ @types/node@18.0.1
+├─ ansi-regex@5.0.1
+├─ ansi-styles@4.3.0
+├─ arg@4.1.3
+├─ ast-types@0.14.2
+├─ babylon@6.18.0
+├─ base64-js@1.5.1
+├─ brorand@1.1.0
+├─ buffer-from@1.1.2
+├─ camelcase@5.3.1
+├─ chalk@4.1.2
+├─ cliui@6.0.0
+├─ color-convert@2.0.1
+├─ color-name@1.1.4
+├─ cosmwasm@1.1.1
+├─ define-properties@1.1.4
+├─ diff@4.0.2
+├─ elliptic@6.5.4
+├─ emoji-regex@8.0.0
+├─ esprima@4.0.1
+├─ events@3.3.0
+├─ find-up@4.1.0
+├─ follow-redirects@1.15.1
+├─ get-caller-file@2.0.5
+├─ get-intrinsic@1.1.2
+├─ globalthis@1.0.3
+├─ has-flag@4.0.0
+├─ has-property-descriptors@1.0.0
+├─ has-symbols@1.0.3
+├─ has@1.0.3
+├─ hash-base@3.1.0
+├─ hash.js@1.1.7
+├─ hmac-drbg@1.0.1
+├─ is-fullwidth-code-point@3.0.0
+├─ isomorphic-ws@4.0.1
+├─ ledger-cosmos-js@2.1.8
+├─ libsodium-wrappers@0.7.10
+├─ libsodium@0.7.10
+├─ locate-path@5.0.0
+├─ lru-cache@6.0.0
+├─ make-error@1.3.6
+├─ minimalistic-assert@1.0.1
+├─ object-keys@1.1.1
+├─ p-limit@2.3.0
+├─ p-locate@4.1.0
+├─ p-try@2.2.0
+├─ pako@2.0.4
+├─ path-exists@4.0.0
+├─ protobufjs@6.11.3
+├─ readable-stream@3.6.0
+├─ recast@0.20.5
+├─ regenerator-runtime@0.13.9
+├─ require-directory@2.1.1
+├─ require-main-filename@2.0.0
+├─ ripemd160@2.0.2
+├─ rxjs@6.6.7
+├─ safe-buffer@5.2.1
+├─ semver@7.3.7
+├─ set-blocking@2.0.0
+├─ source-map-support@0.5.21
+├─ source-map@0.6.1
+├─ string_decoder@1.3.0
+├─ string-width@4.2.3
+├─ supports-color@7.2.0
+├─ symbol-observable@2.0.3
+├─ ts-node@8.10.2
+├─ typescript@4.4.4
+├─ util-deprecate@1.0.2
+├─ which-module@2.0.0
+├─ wrap-ansi@6.2.0
+├─ ws@7.5.8
+├─ y18n@4.0.3
+├─ yallist@4.0.0
+├─ yargs-parser@18.1.3
+├─ yargs@15.4.1
+└─ yn@3.1.1
+✨  Done in 34.79s.
+test@tests-MacBook-Pro ~ % brew install node
+node 18.2.0 is already installed but outdated (so it will be upgraded).
+==> Downloading https://ghcr.io/v2/homebrew/core/libnghttp2/manifests/1.48.0
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/libnghttp2/blobs/sha256:4378f718973183dfc187684d4f7839f57c
+==> Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/sha256:4378f718973183dfc18768
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/openssl/1.1/manifests/1.1.1p
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/openssl/1.1/blobs/sha256:47a1bfb4e090a4a21320e809be8744dcc
+==> Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/sha256:47a1bfb4e090a4a21320e8
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/node/manifests/18.4.0
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/node/blobs/sha256:96ef9c260e55360894430fefd48a57d6abc40e25
+==> Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/sha256:96ef9c260e55360894430f
+######################################################################## 100.0%
+==> Upgrading node
+  18.2.0 -> 18.4.0 
+
+==> Installing dependencies for node: libnghttp2 and openssl@1.1
+==> Installing node dependency: libnghttp2
+==> Pouring libnghttp2--1.48.0.arm64_monterey.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/libnghttp2/1.48.0: 13 files, 739.5KB
+==> Installing node dependency: openssl@1.1
+==> Pouring openssl@1.1--1.1.1p.arm64_monterey.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/openssl@1.1/1.1.1p: 8,097 files, 18MB
+==> Installing node
+==> Pouring node--18.4.0.arm64_monterey.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/node/18.4.0: 1,926 files, 47.5MB
+==> Running `brew cleanup node`...
+Disable this behaviour by setting HOMEBREW_NO_INSTALL_CLEANUP.
+Hide these hints with HOMEBREW_NO_ENV_HINTS (see `man brew`).
+Removing: /opt/homebrew/Cellar/node/18.2.0... (1,930 files, 47.3MB)
+test@tests-MacBook-Pro ~ % curl -O https://dist.ipfs.io/go-ipfs/v0.13.0/go-ipfs_v0.13.0_darwin-arm64.tar.gz
+
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100 25.3M  100 25.3M    0     0  4193k      0  0:00:06  0:00:06 --:--:-- 5281k
+test@tests-MacBook-Pro ~ % tar -xvzf go-ipfs_v0.13.0_darwin-arm64.tar.gz
+
+> x go-ipfs/install.sh
+> x go-ipfs/ipfs
+> x go-ipfs/LICENSE
+> x go-ipfs/LICENSE-APACHE
+> x go-ipfs/LICENSE-MIT
+> x go-ipfs/README.md
+x go-ipfs/
+x go-ipfs/ipfs
+x go-ipfs/install.sh
+mv: rename go-ipfs/ipfs to /usr/local/bin/ipfs: Permission denied
+mv: fastcopy: open() failed (to): /usr/bin/ipfs: Read-only file system
+zsh: no such file or directory: go-ipfs/ipfs
+zsh: no such file or directory: go-ipfs/LICENSE
+zsh: no such file or directory: go-ipfs/LICENSE-APACHE
+zsh: no such file or directory: go-ipfs/LICENSE-MIT
+zsh: no such file or directory: go-ipfs/README.md
+test@tests-MacBook-Pro ~ % tar -xvzf go-ipfs_v0.13.0_darwin-arm64.tar.gz
+
+> x go-ipfs/install.sh
+> x go-ipfs/ipfs
+> x go-ipfs/LICENSE
+> x go-ipfs/LICENSE-APACHE
+> x go-ipfs/LICENSE-MIT
+> x go-ipfs/README.md
+x go-ipfs/
+x go-ipfs/ipfs
+x go-ipfs/install.sh
+mv: rename go-ipfs/ipfs to /usr/local/bin/ipfs: Permission denied
+mv: fastcopy: open() failed (to): /usr/bin/ipfs: Read-only file system
+zsh: no such file or directory: go-ipfs/ipfs
+zsh: no such file or directory: go-ipfs/LICENSE
+zsh: no such file or directory: go-ipfs/LICENSE-APACHE
+zsh: no such file or directory: go-ipfs/LICENSE-MIT
+zsh: no such file or directory: go-ipfs/README.md
+test@tests-MacBook-Pro ~ % tar -xvzf go-ipfs_v0.13.0_darwin-arm64.tar.gz
+
+> x go-ipfs/install.sh
+> x go-ipfs/ipfs
+> x go-ipfs/LICENSE
+> x go-ipfs/LICENSE-APACHE
+> x go-ipfs/LICENSE-MIT
+> x go-ipfs/README.md
+x go-ipfs/
+x go-ipfs/ipfs
+x go-ipfs/install.sh
+mv: rename go-ipfs/ipfs to /usr/local/bin/ipfs: Permission denied
+mv: fastcopy: open() failed (to): /usr/bin/ipfs: Read-only file system
+zsh: no such file or directory: go-ipfs/ipfs
+zsh: no such file or directory: go-ipfs/LICENSE
+zsh: no such file or directory: go-ipfs/LICENSE-APACHE
+zsh: no such file or directory: go-ipfs/LICENSE-MIT
+zsh: no such file or directory: go-ipfs/README.md
+test@tests-MacBook-Pro ~ % tar -xvzf go-ipfs_v0.13.0_darwin-arm64.tar.gz
+
+> x go-ipfs/install.sh
+> x go-ipfs/ipfs
+> x go-ipfs/LICENSE
+> x go-ipfs/LICENSE-APACHE
+> x go-ipfs/LICENSE-MIT
+> x go-ipfs/README.md
+x go-ipfs/
+x go-ipfs/ipfs
+x go-ipfs/install.sh
+zsh: no such file or directory: go-ipfs/ipfs
+zsh: no such file or directory: go-ipfs/LICENSE
+zsh: no such file or directory: go-ipfs/LICENSE-APACHE
+zsh: no such file or directory: go-ipfs/LICENSE-MIT
+zsh: no such file or directory: go-ipfs/README.md
+test@tests-MacBook-Pro ~ % cd go-ipfs
+bash install.sh
+mv: ./ipfs: No such file or directory
+mv: rename ./ipfs to /usr/bin/ipfs: No such file or directory
+mv: ./ipfs: No such file or directory
+We cannot install ./ipfs in one of the directories /usr/local/bin /usr/bin $HOME/.local/bin
+It seems that we do not have the necessary write permissions.
+Perhaps try running this script as a privileged user:
+
+    sudo install.sh
+
+test@tests-MacBook-Pro go-ipfs % sudo install.sh
+Password:
+sudo: install.sh: command not found
+test@tests-MacBook-Pro go-ipfs % bash install.sh
+mv: ./ipfs: No such file or directory
+mv: rename ./ipfs to /usr/bin/ipfs: No such file or directory
+mv: ./ipfs: No such file or directory
+We cannot install ./ipfs in one of the directories /usr/local/bin /usr/bin $HOME/.local/bin
+It seems that we do not have the necessary write permissions.
+Perhaps try running this script as a privileged user:
+
+    sudo install.sh
+
+test@tests-MacBook-Pro go-ipfs % bash install.sh
+mv: ./ipfs: No such file or directory
+mv: rename ./ipfs to /usr/bin/ipfs: No such file or directory
+mv: ./ipfs: No such file or directory
+We cannot install ./ipfs in one of the directories /usr/local/bin /usr/bin $HOME/.local/bin
+It seems that we do not have the necessary write permissions.
+Perhaps try running this script as a privileged user:
+
+    sudo install.sh
+
+test@tests-MacBook-Pro go-ipfs % cd ..
+test@tests-MacBook-Pro ~ % brew install ipfs
+Running `brew update --auto-update`...
+==> Auto-updated Homebrew!
+Updated 1 tap (homebrew/core).
+No changes to formulae.
+
+Warning: Treating ipfs as a formula. For the cask, use homebrew/cask/ipfs
+==> Downloading https://ghcr.io/v2/homebrew/core/ipfs/manifests/0.13.0
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/ipfs/blobs/sha256:bb349ff0435eaadd3f4e8c1c0839500e365b8c90
+==> Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/sha256:bb349ff0435eaadd3f4e8c
+######################################################################## 100.0%
+==> Pouring ipfs--0.13.0.arm64_monterey.bottle.tar.gz
+==> Caveats
+To restart ipfs after an upgrade:
+  brew services restart ipfs
+Or, if you don't want/need a background service you can just run:
+  /opt/homebrew/opt/ipfs/bin/ipfs daemon
+==> Summary
+🍺  /opt/homebrew/Cellar/ipfs/0.13.0: 11 files, 63.7MB
+==> Running `brew cleanup ipfs`...
+Disable this behaviour by setting HOMEBREW_NO_INSTALL_CLEANUP.
+Hide these hints with HOMEBREW_NO_ENV_HINTS (see `man brew`).
+test@tests-MacBook-Pro ~ % cd desktop/Cosmic-Emotions
+test@tests-MacBook-Pro Cosmic-Emotions % yarn install                                 
+yarn install v1.22.19
+warning package.json: No license field
+warning No license field
+[1/4] 🔍  Resolving packages...
+success Already up-to-date.
+✨  Done in 0.04s.
+test@tests-MacBook-Pro Cosmic-Emotions % yarn account
+yarn run v1.22.19
+warning package.json: No license field
+error Command "account" not found.
+info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.
+test@tests-MacBook-Pro Cosmic-Emotions % code .
+zsh: command not found: code
+test@tests-MacBook-Pro Cosmic-Emotions % cd ../..
+test@tests-MacBook-Pro ~ % git clone https://github.com/public-awesome/stargaze-tools Cosmic-Emotions
+cd desktop/Cosmic-Emotions
+yarn install
+fatal: destination path 'Cosmic-Emotions' already exists and is not an empty directory.
+yarn install v1.22.19
+warning package.json: No license field
+warning No license field
+[1/4] 🔍  Resolving packages...
+success Already up-to-date.
+✨  Done in 0.04s.
+test@tests-MacBook-Pro Cosmic-Emotions % code .
+zsh: command not found: code
+test@tests-MacBook-Pro Cosmic-Emotions % yarn account
+yarn run v1.22.19
+warning package.json: No license field
+error Command "account" not found.
+info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.
+test@tests-MacBook-Pro Cosmic-Emotions % yarn minter
+yarn run v1.22.19
+warning package.json: No license field
+error Command "minter" not found.
+info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.
+test@tests-MacBook-Pro Cosmic-Emotions % cd ..
+test@tests-MacBook-Pro desktop % cd ..
+test@tests-MacBook-Pro ~ % ls
+Cosmic-Emotions				gaia
+Desktop					get-pip.py
+Documents				go
+Downloads				go-ipfs
+Library					go-ipfs_v0.13.0_darwin-arm64.tar.gz
+Movies					go1.17.4.linux-amd64.tar.gz
+Music					jmemo.py
+Pictures				jsearch.py
+Profil3r				jtest.txt
+Public					kmemo.py
+akash-tools				ksearch.py
+amemo.py				ktest.txt
+ammemo.py				node_modules
+amsearch.py				omemo.py
+amtest.txt				osearch.py
+asearch.py				otest.txt
+autosend.py				package.json
+bmemo.py				rtest.txt
+bsearch.py				smemo.py
+btest.txt				ssearch.py
+chitest.txt				stest.txt
+cmemo.py				string
+csearch.py				test.txt
+ctest.txt				websites
+dmemo.py				x
+dsearch.py				yarn.lock
+dtest.txt
+test@tests-MacBook-Pro ~ % cd Cosmic-Emotions
+test@tests-MacBook-Pro Cosmic-Emotions % yarn install
+yarn install v1.22.19
+warning ../package.json: No license field
+[1/4] 🔍  Resolving packages...
+[2/4] 🚚  Fetching packages...
+warning ipfs-car@0.6.1: Invalid bin entry for "🚘" (in "ipfs-car").
+warning ipfs-car@0.6.2: Invalid bin entry for "🚘" (in "ipfs-car").
+[3/4] 🔗  Linking dependencies...
+warning " > ts-node@10.5.0" has unmet peer dependency "@types/node@*".
+[4/4] 🔨  Building fresh packages...
+✨  Done in 56.58s.
+test@tests-MacBook-Pro Cosmic-Emotions % yarn account
+yarn run v1.22.19
+warning ../package.json: No license field
+$ ts-node scripts/account.ts
+mnemonic: REDACTED!!!!!!
+pubkey: {
+  type: 'tendermint/PubKeySecp256k1',
+  value: 'A+/TEIbZqV1n4+OOff3E7r61l6mrm1/xmVJNd1gqoyGD'
+}
+address: stars19k9nlu67kxv8ye30krzu3re4vpfvzj6m65hv2t
+✨  Done in 1.21s.
+test@tests-MacBook-Pro Cosmic-Emotions % yarn pack-images
+yarn run v1.22.19
+warning ../package.json: No license field
+$ ipfs-car --pack images --output images.car
+root CID: bafybeiaxtd2d34l2eax4x5s2fmli2u6n77aymcnvs4ciehxok5cixndyui
+  output: images.car
+✨  Done in 1.37s.
+test@tests-MacBook-Pro Cosmic-Emotions % yarn pack-metadata
+yarn run v1.22.19
+warning ../package.json: No license field
+$ ipfs-car --pack metadata --output metadata.car
+root CID: bafybeib66grvx7updsdnitokkpwqvzdgrmx3izgy2vjhnl2bd4tg2snuxy
+  output: metadata.car
+✨  Done in 0.15s.
+test@tests-MacBook-Pro Cosmic-Emotions % yarn pack-metadata
+yarn run v1.22.19
+warning ../package.json: No license field
+$ ipfs-car --pack metadata --output metadata.car
+root CID: bafybeidghyhrovzgvxnszhdcrubukgxeykedbyj7bn44jmmjbv72v45wjm
+  output: metadata.car
+✨  Done in 0.15s.
+test@tests-MacBook-Pro Cosmic-Emotions % yarn minter
+yarn run v1.22.19
+warning ../package.json: No license field
+$ ts-node scripts/minter.ts
+Error: Cannot find module '../config'
+Require stack:
+- /Users/test/Cosmic-Emotions/src/client.ts
+- /Users/test/Cosmic-Emotions/scripts/minter.ts
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:946:15)
+    at Function.Module._resolveFilename.sharedData.moduleResolveFilenameHook.installedValue [as _resolveFilename] (/Users/test/Cosmic-Emotions/node_modules/@cspotcode/source-map-support/source-map-support.js:679:30)
+    at Function.Module._load (node:internal/modules/cjs/loader:787:27)
+    at Module.require (node:internal/modules/cjs/loader:1012:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/Users/test/Cosmic-Emotions/src/client.ts:8:16)
+    at Module._compile (node:internal/modules/cjs/loader:1112:14)
+    at Module.m._compile (/Users/test/Cosmic-Emotions/node_modules/ts-node/src/index.ts:1459:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1166:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/test/Cosmic-Emotions/node_modules/ts-node/src/index.ts:1462:12) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/Users/test/Cosmic-Emotions/src/client.ts',
+    '/Users/test/Cosmic-Emotions/scripts/minter.ts'
+  ]
+}
+error Command failed with exit code 1.
+info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.
+test@tests-MacBook-Pro Cosmic-Emotions % yarn minter
+yarn run v1.22.19
+warning ../package.json: No license field
+$ ts-node scripts/minter.ts
+Collection name: Cosmic Emotions
+Account: stars19k9nlu67kxv8ye30krzu3re4vpfvzj6m65hv2t 
+
+/Users/test/Cosmic-Emotions/scripts/minter.ts:4
+import inquirer from 'inquirer';
+           ^
+Error: Image link is not valid. Must be IPFS or http(s)
+    at /Users/test/Cosmic-Emotions/scripts/minter.ts:67:11
+    at Generator.next (<anonymous>)
+    at /Users/test/Cosmic-Emotions/scripts/minter.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (/Users/test/Cosmic-Emotions/scripts/minter.ts:4:12)
+    at init (/Users/test/Cosmic-Emotions/scripts/minter.ts:53:12)
+    at Object.<anonymous> (/Users/test/Cosmic-Emotions/scripts/minter.ts:294:3)
+    at Module._compile (node:internal/modules/cjs/loader:1112:14)
+    at Module.m._compile (/Users/test/Cosmic-Emotions/node_modules/ts-node/src/index.ts:1459:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1166:10)
+error Command failed with exit code 1.
+info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.
+test@tests-MacBook-Pro Cosmic-Emotions % yarn minter
+yarn run v1.22.19
+warning ../package.json: No license field
+$ ts-node scripts/minter.ts
+Collection name: Cosmic Emotions
+Account: stars19k9nlu67kxv8ye30krzu3re4vpfvzj6m65hv2t 
+
+(node:52990) ExperimentalWarning: The Fetch API is an experimental feature. This feature could change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+Please confirm the settings for your minter and collection. THERE IS NO WAY TO UPDATE THIS ONCE IT IS ON CHAIN.
+{
+  "base_token_uri": "ipfs://bafybeidghyhrovzgvxnszhdcrubukgxeykedbyj7bn44jmmjbv72v45wjm/metadata",
+  "num_tokens": 36,
+  "sg721_code_id": 76,
+  "sg721_instantiate_msg": {
+    "name": "Cosmic Emotions",
+    "symbol": "ATOMEMOT",
+    "minter": "stars19k9nlu67kxv8ye30krzu3re4vpfvzj6m65hv2t",
+    "collection_info": {
+      "creator": "stars19k9nlu67kxv8ye30krzu3re4vpfvzj6m65hv2t",
+      "description": "All pieces are original, hand-crafted artwork that was put through a VQGAN+CLIP program to make each piece more modern. Please support the digital revolution by purchasing our artwork.",
+      "image": "ipfs://bafybeiaxtd2d34l2eax4x5s2fmli2u6n77aymcnvs4ciehxok5cixndyui/images/1.jpg",
+      "royalty_info": {
+        "payment_address": "stars1h46kt4xg6kpmkp38pgl0te6pq90vknwptcuk3d",
+        "share": "0.1"
+      }
+    }
+  },
+  "per_address_limit": 2,
+  "start_time": "1647032400000000000",
+  "unit_price": {
+    "amount": "500000000",
+    "denom": "ustars"
+  }
+}
+Cost of minter instantiation: 1000000000 ustars
+? Ready to submit the transaction? Yes
+Error: Query failed with (18): failed to execute message; message index: 0: InvalidStartTime 1647032400.000000000 < 1656971507.372170469: instantiate wasm contract failed: invalid request
+    at QueryClient.queryUnverified (/Users/test/Cosmic-Emotions/node_modules/@cosmjs/stargate/src/queries/queryclient.ts:581:13)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async Object.simulate (/Users/test/Cosmic-Emotions/node_modules/@cosmjs/stargate/src/queries/tx.ts:76:26)
+    at async SigningCosmWasmClient.simulate (/Users/test/Cosmic-Emotions/node_modules/@cosmjs/cosmwasm-stargate/src/signingcosmwasmclient.ts:238:25)
+    at async SigningCosmWasmClient.signAndBroadcast (/Users/test/Cosmic-Emotions/node_modules/@cosmjs/cosmwasm-stargate/src/signingcosmwasmclient.ts:504:29)
+    at async SigningCosmWasmClient.instantiate (/Users/test/Cosmic-Emotions/node_modules/@cosmjs/cosmwasm-stargate/src/signingcosmwasmclient.ts:298:20)
+error Command failed with exit code 1.
+info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.
+test@tests-MacBook-Pro Cosmic-Emotions % yarn minter
+yarn run v1.22.19
+warning ../package.json: No license field
+$ ts-node scripts/minter.ts
+Collection name: Cosmic Emotions
+Account: stars19k9nlu67kxv8ye30krzu3re4vpfvzj6m65hv2t 
+
+(node:53089) ExperimentalWarning: The Fetch API is an experimental feature. This feature could change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+Please confirm the settings for your minter and collection. THERE IS NO WAY TO UPDATE THIS ONCE IT IS ON CHAIN.
+{
+  "base_token_uri": "ipfs://bafybeidghyhrovzgvxnszhdcrubukgxeykedbyj7bn44jmmjbv72v45wjm/metadata",
+  "num_tokens": 36,
+  "sg721_code_id": 76,
+  "sg721_instantiate_msg": {
+    "name": "Cosmic Emotions",
+    "symbol": "ATOMEMOT",
+    "minter": "stars19k9nlu67kxv8ye30krzu3re4vpfvzj6m65hv2t",
+    "collection_info": {
+      "creator": "stars19k9nlu67kxv8ye30krzu3re4vpfvzj6m65hv2t",
+      "description": "All pieces are original, hand-crafted artwork that was put through a VQGAN+CLIP program to make each piece more modern. Please support the digital revolution by purchasing our artwork.",
+      "image": "ipfs://bafybeiaxtd2d34l2eax4x5s2fmli2u6n77aymcnvs4ciehxok5cixndyui/images/1.jpg",
+      "royalty_info": {
+        "payment_address": "stars19k9nlu67kxv8ye30krzu3re4vpfvzj6m65hv2t",
+        "share": "0.1"
+      }
+    }
+  },
+  "per_address_limit": 2,
+  "start_time": "1647032400000000000",
+  "unit_price": {
+    "amount": "500000000",
+    "denom": "ustars"
+  }
+}
+Cost of minter instantiation: 1000000000 ustars
+? Ready to submit the transaction? Yes
+Error: Query failed with (18): failed to execute message; message index: 0: InvalidStartTime 1647032400.000000000 < 1656971630.336308877: instantiate wasm contract failed: invalid request
+    at QueryClient.queryUnverified (/Users/test/Cosmic-Emotions/node_modules/@cosmjs/stargate/src/queries/queryclient.ts:581:13)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async Object.simulate (/Users/test/Cosmic-Emotions/node_modules/@cosmjs/stargate/src/queries/tx.ts:76:26)
+    at async SigningCosmWasmClient.simulate (/Users/test/Cosmic-Emotions/node_modules/@cosmjs/cosmwasm-stargate/src/signingcosmwasmclient.ts:238:25)
+    at async SigningCosmWasmClient.signAndBroadcast (/Users/test/Cosmic-Emotions/node_modules/@cosmjs/cosmwasm-stargate/src/signingcosmwasmclient.ts:504:29)
+    at async SigningCosmWasmClient.instantiate (/Users/test/Cosmic-Emotions/node_modules/@cosmjs/cosmwasm-stargate/src/signingcosmwasmclient.ts:298:20)
+error Command failed with exit code 1.
+info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.
+test@tests-MacBook-Pro Cosmic-Emotions % yarn minter
+yarn run v1.22.19
+warning ../package.json: No license field
+$ ts-node scripts/minter.ts
+Collection name: Cosmic Emotions
+Account: stars19k9nlu67kxv8ye30krzu3re4vpfvzj6m65hv2t 
+
+(node:53194) ExperimentalWarning: The Fetch API is an experimental feature. This feature could change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+Please confirm the settings for your minter and collection. THERE IS NO WAY TO UPDATE THIS ONCE IT IS ON CHAIN.
+{
+  "base_token_uri": "ipfs://bafybeidghyhrovzgvxnszhdcrubukgxeykedbyj7bn44jmmjbv72v45wjm/metadata",
+  "num_tokens": 36,
+  "sg721_code_id": 76,
+  "sg721_instantiate_msg": {
+    "name": "Cosmic Emotions",
+    "symbol": "ATOMEMOT",
+    "minter": "stars19k9nlu67kxv8ye30krzu3re4vpfvzj6m65hv2t",
+    "collection_info": {
+      "creator": "stars19k9nlu67kxv8ye30krzu3re4vpfvzj6m65hv2t",
+      "description": "All pieces are original, hand-crafted artwork that was put through a VQGAN+CLIP program to make each piece more modern. Please support the digital revolution by purchasing our artwork.",
+      "image": "ipfs://bafybeiaxtd2d34l2eax4x5s2fmli2u6n77aymcnvs4ciehxok5cixndyui/images/1.jpg",
+      "royalty_info": {
+        "payment_address": "stars19k9nlu67kxv8ye30krzu3re4vpfvzj6m65hv2t",
+        "share": "0.1"
+      }
+    }
+  },
+  "per_address_limit": 2,
+  "start_time": "1656971820000000000",
+  "unit_price": {
+    "amount": "500000000",
+    "denom": "ustars"
+  }
+}
+Cost of minter instantiation: 1000000000 ustars
+? Ready to submit the transaction? Yes
+The `wasm` event emitted by the contract execution: {
+  type: 'wasm',
+  attributes: [
+    {
+      key: '_contract_address',
+      value: 'stars1jh06k8vxty8wefex2mevkujfct9fuk6uv6zcekc09cvudlvdmjzs00cfm5'
+    },
+    { key: 'action', value: 'instantiate' },
+    { key: 'contract_name', value: 'crates.io:sg-minter' },
+    { key: 'contract_version', value: '0.8.0' },
+    {
+      key: 'sender',
+      value: 'stars19k9nlu67kxv8ye30krzu3re4vpfvzj6m65hv2t'
+    },
+    {
+      key: '_contract_address',
+      value: 'stars1sxw7jlwmyqfdp65zsd5msfk2fcssx23ghl7pgu2n2rn794e5ujdq88l84p'
+    },
+    { key: 'action', value: 'instantiate' },
+    { key: 'contract_name', value: 'crates.io:sg-721' },
+    { key: 'contract_version', value: '0.8.0' },
+    {
+      key: 'image',
+      value: 'ipfs://bafybeiaxtd2d34l2eax4x5s2fmli2u6n77aymcnvs4ciehxok5cixndyui/images/1.jpg'
+    },
+    {
+      key: '_contract_address',
+      value: 'stars1jh06k8vxty8wefex2mevkujfct9fuk6uv6zcekc09cvudlvdmjzs00cfm5'
+    },
+    { key: 'action', value: 'instantiate_sg721_reply' }
+  ]
+}
+Add these contract addresses to config.js:
+minter contract address:  stars1jh06k8vxty8wefex2mevkujfct9fuk6uv6zcekc09cvudlvdmjzs00cfm5
+sg721 contract address:  stars1sxw7jlwmyqfdp65zsd5msfk2fcssx23ghl7pgu2n2rn794e5ujdq88l84p
+✨  Done in 10.72s.
+test@tests-MacBook-Pro Cosmic-Emotions % yarn account
+yarn run v1.22.19
+warning ../package.json: No license field
+$ ts-node scripts/account.ts
+mnemonic: REDACTED!!!!!
+pubkey: {
+  type: 'tendermint/PubKeySecp256k1',
+  value: 'AwGzgZIH4ESz1A/iG12ZKBQK+2Apa5tUTZIavojML9xN'
+}
+address: stars1q04k04r8pl0nktly685ahutu4srcswmlg7f82g
+✨  Done in 1.11s.
+test@tests-MacBook-Pro Cosmic-Emotions % yarn mint --to stars19k9nlu67kxv8ye30krzu3re4vpfvzj6m65hv2t --batch 1 
+yarn run v1.22.19
+warning ../package.json: No license field
+$ ts-node scripts/mint.ts --to stars19k9nlu67kxv8ye30krzu3re4vpfvzj6m65hv2t --batch 1
+(node:53405) ExperimentalWarning: The Fetch API is an experimental feature. This feature could change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+Minter contract:  stars1jh06k8vxty8wefex2mevkujfct9fuk6uv6zcekc09cvudlvdmjzs00cfm5
+Minting 1 tokens to: stars19k9nlu67kxv8ye30krzu3re4vpfvzj6m65hv2t
+Tx hash:  B1E60F6D4AC279F4A2205E8493D5AE6EFA221CC3869BDD85B11D7C866B81032F
+✨  Done in 9.64s.
+test@tests-MacBook-Pro Cosmic-Emotions % yarn mint --to stars19k9nlu67kxv8ye30krzu3re4vpfvzj6m65hv2t --batch 35
+yarn run v1.22.19
+warning ../package.json: No license field
+$ ts-node scripts/mint.ts --to stars19k9nlu67kxv8ye30krzu3re4vpfvzj6m65hv2t --batch 35
+(node:53408) ExperimentalWarning: The Fetch API is an experimental feature. This feature could change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+Minter contract:  stars1jh06k8vxty8wefex2mevkujfct9fuk6uv6zcekc09cvudlvdmjzs00cfm5
+Minting 35 tokens to: stars19k9nlu67kxv8ye30krzu3re4vpfvzj6m65hv2t
+Tx hash:  DF00B0773BBBE7AE249499179D1EA23C01505B0E67108EC6F78C4359DC5A13DC
+✨  Done in 13.77s.
+test@tests-MacBook-Pro Cosmic-Emotions % yarn query
+yarn run v1.22.19
+warning ../package.json: No license field
+$ ts-node scripts/query.ts
+(node:53461) ExperimentalWarning: The Fetch API is an experimental feature. This feature could change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+account balance: { denom: 'ustars', amount: '4000000000' }
+minter configResponse:  {
+  admin: 'stars19k9nlu67kxv8ye30krzu3re4vpfvzj6m65hv2t',
+  base_token_uri: 'ipfs://bafybeidghyhrovzgvxnszhdcrubukgxeykedbyj7bn44jmmjbv72v45wjm/metadata',
+  num_tokens: 36,
+  per_address_limit: 2,
+  sg721_address: 'stars1sxw7jlwmyqfdp65zsd5msfk2fcssx23ghl7pgu2n2rn794e5ujdq88l84p',
+  sg721_code_id: 76,
+  start_time: '1656971820000000000',
+  unit_price: { denom: 'ustars', amount: '500000000' },
+  whitelist: null
+}
+num tokens: { count: 36 }
+collection info: {
+  creator: 'stars19k9nlu67kxv8ye30krzu3re4vpfvzj6m65hv2t',
+  description: 'All pieces are original, hand-crafted artwork that was put through a VQGAN+CLIP program to make each piece more modern. Please support the digital revolution by purchasing our artwork.',
+  image: 'ipfs://bafybeiaxtd2d34l2eax4x5s2fmli2u6n77aymcnvs4ciehxok5cixndyui/images/1.jpg',
+  external_link: null,
+  royalty_info: {
+    payment_address: 'stars19k9nlu67kxv8ye30krzu3re4vpfvzj6m65hv2t',
+    share: '0.1'
+  }
+}
+tokenInfo: {
+  access: {
+    owner: 'stars19k9nlu67kxv8ye30krzu3re4vpfvzj6m65hv2t',
+    approvals: []
+  },
+  info: {
+    token_uri: 'ipfs://bafybeidghyhrovzgvxnszhdcrubukgxeykedbyj7bn44jmmjbv72v45wjm/metadata/1',
+    extension: {}
+  }
+}
+tokenInfo: {
+  access: {
+    owner: 'stars19k9nlu67kxv8ye30krzu3re4vpfvzj6m65hv2t',
+    approvals: []
+  },
+  info: {
+    token_uri: 'ipfs://bafybeidghyhrovzgvxnszhdcrubukgxeykedbyj7bn44jmmjbv72v45wjm/metadata/10',
+    extension: {}
+  }
+}
+tokenInfo: {
+  access: {
+    owner: 'stars19k9nlu67kxv8ye30krzu3re4vpfvzj6m65hv2t',
+    approvals: []
+  },
+  info: {
+    token_uri: 'ipfs://bafybeidghyhrovzgvxnszhdcrubukgxeykedbyj7bn44jmmjbv72v45wjm/metadata/11',
+    extension: {}
+  }
+}
+tokenInfo: {
+  access: {
+    owner: 'stars19k9nlu67kxv8ye30krzu3re4vpfvzj6m65hv2t',
+    approvals: []
+  },
+  info: {
+    token_uri: 'ipfs://bafybeidghyhrovzgvxnszhdcrubukgxeykedbyj7bn44jmmjbv72v45wjm/metadata/12',
+    extension: {}
+  }
+}
+tokenInfo: {
+  access: {
+    owner: 'stars19k9nlu67kxv8ye30krzu3re4vpfvzj6m65hv2t',
+    approvals: []
+  },
+  info: {
+    token_uri: 'ipfs://bafybeidghyhrovzgvxnszhdcrubukgxeykedbyj7bn44jmmjbv72v45wjm/metadata/13',
+    extension: {}
+  }
+}
+tokenInfo: {
+  access: {
+    owner: 'stars19k9nlu67kxv8ye30krzu3re4vpfvzj6m65hv2t',
+    approvals: []
+  },
+  info: {
+    token_uri: 'ipfs://bafybeidghyhrovzgvxnszhdcrubukgxeykedbyj7bn44jmmjbv72v45wjm/metadata/14',
+    extension: {}
+  }
+}
+tokenInfo: {
+  access: {
+    owner: 'stars19k9nlu67kxv8ye30krzu3re4vpfvzj6m65hv2t',
+    approvals: []
+  },
+  info: {
+    token_uri: 'ipfs://bafybeidghyhrovzgvxnszhdcrubukgxeykedbyj7bn44jmmjbv72v45wjm/metadata/15',
+    extension: {}
+  }
+}
+tokenInfo: {
+  access: {
+    owner: 'stars19k9nlu67kxv8ye30krzu3re4vpfvzj6m65hv2t',
+    approvals: []
+  },
+  info: {
+    token_uri: 'ipfs://bafybeidghyhrovzgvxnszhdcrubukgxeykedbyj7bn44jmmjbv72v45wjm/metadata/16',
+    extension: {}
+  }
+}
+tokenInfo: {
+  access: {
+    owner: 'stars19k9nlu67kxv8ye30krzu3re4vpfvzj6m65hv2t',
+    approvals: []
+  },
+  info: {
+    token_uri: 'ipfs://bafybeidghyhrovzgvxnszhdcrubukgxeykedbyj7bn44jmmjbv72v45wjm/metadata/17',
+    extension: {}
+  }
+}
+tokenInfo: {
+  access: {
+    owner: 'stars19k9nlu67kxv8ye30krzu3re4vpfvzj6m65hv2t',
+    approvals: []
+  },
+  info: {
+    token_uri: 'ipfs://bafybeidghyhrovzgvxnszhdcrubukgxeykedbyj7bn44jmmjbv72v45wjm/metadata/18',
+    extension: {}
+  }
+}
+tokenInfo: {
+  access: {
+    owner: 'stars19k9nlu67kxv8ye30krzu3re4vpfvzj6m65hv2t',
+    approvals: []
+  },
+  info: {
+    token_uri: 'ipfs://bafybeidghyhrovzgvxnszhdcrubukgxeykedbyj7bn44jmmjbv72v45wjm/metadata/19',
+    extension: {}
+  }
+}
+tokenInfo: {
+  access: {
+    owner: 'stars19k9nlu67kxv8ye30krzu3re4vpfvzj6m65hv2t',
+    approvals: []
+  },
+  info: {
+    token_uri: 'ipfs://bafybeidghyhrovzgvxnszhdcrubukgxeykedbyj7bn44jmmjbv72v45wjm/metadata/2',
+    extension: {}
+  }
+}
+tokenInfo: {
+  access: {
+    owner: 'stars19k9nlu67kxv8ye30krzu3re4vpfvzj6m65hv2t',
+    approvals: []
+  },
+  info: {
+    token_uri: 'ipfs://bafybeidghyhrovzgvxnszhdcrubukgxeykedbyj7bn44jmmjbv72v45wjm/metadata/20',
+    extension: {}
+  }
+}
+tokenInfo: {
+  access: {
+    owner: 'stars19k9nlu67kxv8ye30krzu3re4vpfvzj6m65hv2t',
+    approvals: []
+  },
+  info: {
+    token_uri: 'ipfs://bafybeidghyhrovzgvxnszhdcrubukgxeykedbyj7bn44jmmjbv72v45wjm/metadata/21',
+    extension: {}
+  }
+}
+tokenInfo: {
+  access: {
+    owner: 'stars19k9nlu67kxv8ye30krzu3re4vpfvzj6m65hv2t',
+    approvals: []
+  },
+  info: {
+    token_uri: 'ipfs://bafybeidghyhrovzgvxnszhdcrubukgxeykedbyj7bn44jmmjbv72v45wjm/metadata/22',
+    extension: {}
+  }
+}
+tokenInfo: {
+  access: {
+    owner: 'stars19k9nlu67kxv8ye30krzu3re4vpfvzj6m65hv2t',
+    approvals: []
+  },
+  info: {
+    token_uri: 'ipfs://bafybeidghyhrovzgvxnszhdcrubukgxeykedbyj7bn44jmmjbv72v45wjm/metadata/23',
+    extension: {}
+  }
+}
+tokenInfo: {
+  access: {
+    owner: 'stars19k9nlu67kxv8ye30krzu3re4vpfvzj6m65hv2t',
+    approvals: []
+  },
+  info: {
+    token_uri: 'ipfs://bafybeidghyhrovzgvxnszhdcrubukgxeykedbyj7bn44jmmjbv72v45wjm/metadata/24',
+    extension: {}
+  }
+}
+tokenInfo: {
+  access: {
+    owner: 'stars19k9nlu67kxv8ye30krzu3re4vpfvzj6m65hv2t',
+    approvals: []
+  },
+  info: {
+    token_uri: 'ipfs://bafybeidghyhrovzgvxnszhdcrubukgxeykedbyj7bn44jmmjbv72v45wjm/metadata/25',
+    extension: {}
+  }
+}
+tokenInfo: {
+  access: {
+    owner: 'stars19k9nlu67kxv8ye30krzu3re4vpfvzj6m65hv2t',
+    approvals: []
+  },
+  info: {
+    token_uri: 'ipfs://bafybeidghyhrovzgvxnszhdcrubukgxeykedbyj7bn44jmmjbv72v45wjm/metadata/26',
+    extension: {}
+  }
+}
+tokenInfo: {
+  access: {
+    owner: 'stars19k9nlu67kxv8ye30krzu3re4vpfvzj6m65hv2t',
+    approvals: []
+  },
+  info: {
+    token_uri: 'ipfs://bafybeidghyhrovzgvxnszhdcrubukgxeykedbyj7bn44jmmjbv72v45wjm/metadata/27',
+    extension: {}
+  }
+}
+tokenInfo: {
+  access: {
+    owner: 'stars19k9nlu67kxv8ye30krzu3re4vpfvzj6m65hv2t',
+    approvals: []
+  },
+  info: {
+    token_uri: 'ipfs://bafybeidghyhrovzgvxnszhdcrubukgxeykedbyj7bn44jmmjbv72v45wjm/metadata/28',
+    extension: {}
+  }
+}
+tokenInfo: {
+  access: {
+    owner: 'stars19k9nlu67kxv8ye30krzu3re4vpfvzj6m65hv2t',
+    approvals: []
+  },
+  info: {
+    token_uri: 'ipfs://bafybeidghyhrovzgvxnszhdcrubukgxeykedbyj7bn44jmmjbv72v45wjm/metadata/29',
+    extension: {}
+  }
+}
+tokenInfo: {
+  access: {
+    owner: 'stars19k9nlu67kxv8ye30krzu3re4vpfvzj6m65hv2t',
+    approvals: []
+  },
+  info: {
+    token_uri: 'ipfs://bafybeidghyhrovzgvxnszhdcrubukgxeykedbyj7bn44jmmjbv72v45wjm/metadata/3',
+    extension: {}
+  }
+}
+tokenInfo: {
+  access: {
+    owner: 'stars19k9nlu67kxv8ye30krzu3re4vpfvzj6m65hv2t',
+    approvals: []
+  },
+  info: {
+    token_uri: 'ipfs://bafybeidghyhrovzgvxnszhdcrubukgxeykedbyj7bn44jmmjbv72v45wjm/metadata/30',
+    extension: {}
+  }
+}
+tokenInfo: {
+  access: {
+    owner: 'stars19k9nlu67kxv8ye30krzu3re4vpfvzj6m65hv2t',
+    approvals: []
+  },
+  info: {
+    token_uri: 'ipfs://bafybeidghyhrovzgvxnszhdcrubukgxeykedbyj7bn44jmmjbv72v45wjm/metadata/31',
+    extension: {}
+  }
+}
+tokenInfo: {
+  access: {
+    owner: 'stars19k9nlu67kxv8ye30krzu3re4vpfvzj6m65hv2t',
+    approvals: []
+  },
+  info: {
+    token_uri: 'ipfs://bafybeidghyhrovzgvxnszhdcrubukgxeykedbyj7bn44jmmjbv72v45wjm/metadata/32',
+    extension: {}
+  }
+}
+tokenInfo: {
+  access: {
+    owner: 'stars19k9nlu67kxv8ye30krzu3re4vpfvzj6m65hv2t',
+    approvals: []
+  },
+  info: {
+    token_uri: 'ipfs://bafybeidghyhrovzgvxnszhdcrubukgxeykedbyj7bn44jmmjbv72v45wjm/metadata/33',
+    extension: {}
+  }
+}
+tokenInfo: {
+  access: {
+    owner: 'stars19k9nlu67kxv8ye30krzu3re4vpfvzj6m65hv2t',
+    approvals: []
+  },
+  info: {
+    token_uri: 'ipfs://bafybeidghyhrovzgvxnszhdcrubukgxeykedbyj7bn44jmmjbv72v45wjm/metadata/34',
+    extension: {}
+  }
+}
+tokenInfo: {
+  access: {
+    owner: 'stars19k9nlu67kxv8ye30krzu3re4vpfvzj6m65hv2t',
+    approvals: []
+  },
+  info: {
+    token_uri: 'ipfs://bafybeidghyhrovzgvxnszhdcrubukgxeykedbyj7bn44jmmjbv72v45wjm/metadata/35',
+    extension: {}
+  }
+}
+tokenInfo: {
+  access: {
+    owner: 'stars19k9nlu67kxv8ye30krzu3re4vpfvzj6m65hv2t',
+    approvals: []
+  },
+  info: {
+    token_uri: 'ipfs://bafybeidghyhrovzgvxnszhdcrubukgxeykedbyj7bn44jmmjbv72v45wjm/metadata/36',
+    extension: {}
+  }
+}
+✨  Done in 25.67s.
+test@tests-MacBook-Pro Cosmic-Emotions % yarn minter
+yarn run v1.22.19
+warning ../package.json: No license field
+$ ts-node scripts/minter.ts
+/Users/test/Cosmic-Emotions/config.js:18
+  The RPC endpoint for Stargaze, mainnet
+      ^^^
+
+SyntaxError: Unexpected identifier
+    at Object.compileFunction (node:vm:353:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1040:15)
+    at Module._compile (node:internal/modules/cjs/loader:1076:27)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1166:10)
+    at Module.load (node:internal/modules/cjs/loader:988:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:834:12)
+    at Module.require (node:internal/modules/cjs/loader:1012:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (/Users/test/Cosmic-Emotions/src/client.ts:8:16)
+    at Module._compile (node:internal/modules/cjs/loader:1112:14)
+error Command failed with exit code 1.
+info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.
+test@tests-MacBook-Pro Cosmic-Emotions % yarn minter
+yarn run v1.22.19
+warning ../package.json: No license field
+$ ts-node scripts/minter.ts
+Collection name: Cosmic Emotions
+Account: stars1h46kt4xg6kpmkp38pgl0te6pq90vknwptcuk3d 
+
+(node:54030) ExperimentalWarning: The Fetch API is an experimental feature. This feature could change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+Please confirm the settings for your minter and collection. THERE IS NO WAY TO UPDATE THIS ONCE IT IS ON CHAIN.
+{
+  "base_token_uri": "ipfs://bafybeidghyhrovzgvxnszhdcrubukgxeykedbyj7bn44jmmjbv72v45wjm/metadata",
+  "num_tokens": 36,
+  "sg721_code_id": 1,
+  "sg721_instantiate_msg": {
+    "name": "Cosmic Emotions",
+    "symbol": "ATOMEMOT",
+    "minter": "stars1h46kt4xg6kpmkp38pgl0te6pq90vknwptcuk3d",
+    "collection_info": {
+      "creator": "stars1h46kt4xg6kpmkp38pgl0te6pq90vknwptcuk3d",
+      "description": "All pieces are original, hand-crafted artwork that was put through a VQGAN+CLIP program to make each piece more modern. Please support the digital revolution by purchasing our artwork.",
+      "image": "ipfs://bafybeiaxtd2d34l2eax4x5s2fmli2u6n77aymcnvs4ciehxok5cixndyui/images/1.jpg",
+      "royalty_info": {
+        "payment_address": "stars1h46kt4xg6kpmkp38pgl0te6pq90vknwptcuk3d",
+        "share": "0.1"
+      }
+    }
+  },
+  "per_address_limit": 2,
+  "start_time": "1656973200000000000",
+  "unit_price": {
+    "amount": "500000000",
+    "denom": "ustars"
+  }
+}
+Cost of minter instantiation: 1000000000 ustars
+? Ready to submit the transaction? Yes
+The `wasm` event emitted by the contract execution: {
+  type: 'wasm',
+  attributes: [
+    {
+      key: '_contract_address',
+      value: 'stars19xjvf4gprddegglhp8g2p007kkzta3l89el28kflwjncaknsmekqemnjzy'
+    },
+    { key: 'action', value: 'instantiate' },
+    { key: 'contract_name', value: 'crates.io:sg-minter' },
+    { key: 'contract_version', value: '0.8.0' },
+    {
+      key: 'sender',
+      value: 'stars1h46kt4xg6kpmkp38pgl0te6pq90vknwptcuk3d'
+    },
+    {
+      key: '_contract_address',
+      value: 'stars1ahdapvtsvyxheuk0pt60pcf86nqn5mshsqquvtqlu4p230ud0uvq8t4vmc'
+    },
+    { key: 'action', value: 'instantiate' },
+    { key: 'contract_name', value: 'crates.io:sg-721' },
+    { key: 'contract_version', value: '0.8.0' },
+    {
+      key: 'image',
+      value: 'ipfs://bafybeiaxtd2d34l2eax4x5s2fmli2u6n77aymcnvs4ciehxok5cixndyui/images/1.jpg'
+    },
+    {
+      key: '_contract_address',
+      value: 'stars19xjvf4gprddegglhp8g2p007kkzta3l89el28kflwjncaknsmekqemnjzy'
+    },
+    { key: 'action', value: 'instantiate_sg721_reply' }
+  ]
+}
+Add these contract addresses to config.js:
+minter contract address:  stars19xjvf4gprddegglhp8g2p007kkzta3l89el28kflwjncaknsmekqemnjzy
+sg721 contract address:  stars1ahdapvtsvyxheuk0pt60pcf86nqn5mshsqquvtqlu4p230ud0uvq8t4vmc
+✨  Done in 18.01s.
+test@tests-MacBook-Pro Cosmic-Emotions % yarn quert
+yarn run v1.22.19
+warning ../package.json: No license field
+error Command "quert" not found. Did you mean "query"?
+info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.
+test@tests-MacBook-Pro Cosmic-Emotions % yarn query 
+yarn run v1.22.19
+warning ../package.json: No license field
+$ ts-node scripts/query.ts
+(node:54188) ExperimentalWarning: The Fetch API is an experimental feature. This feature could change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+account balance: { denom: 'ustars', amount: '1439124459' }
+minter configResponse:  {
+  admin: 'stars1h46kt4xg6kpmkp38pgl0te6pq90vknwptcuk3d',
+  base_token_uri: 'ipfs://bafybeidghyhrovzgvxnszhdcrubukgxeykedbyj7bn44jmmjbv72v45wjm/metadata',
+  num_tokens: 36,
+  per_address_limit: 2,
+  sg721_address: 'stars1ahdapvtsvyxheuk0pt60pcf86nqn5mshsqquvtqlu4p230ud0uvq8t4vmc',
+  sg721_code_id: 1,
+  start_time: '1656973200000000000',
+  unit_price: { denom: 'ustars', amount: '500000000' },
+  whitelist: null
+}
+num tokens: { count: 0 }
+collection info: {
+  creator: 'stars1h46kt4xg6kpmkp38pgl0te6pq90vknwptcuk3d',
+  description: 'All pieces are original, hand-crafted artwork that was put through a VQGAN+CLIP program to make each piece more modern. Please support the digital revolution by purchasing our artwork.',
+  image: 'ipfs://bafybeiaxtd2d34l2eax4x5s2fmli2u6n77aymcnvs4ciehxok5cixndyui/images/1.jpg',
+  external_link: null,
+  royalty_info: {
+    payment_address: 'stars1h46kt4xg6kpmkp38pgl0te6pq90vknwptcuk3d',
+    share: '0.1'
+  }
+}
+✨  Done in 5.10s.
+test@tests-MacBook-Pro Cosmic-Emotions % 
