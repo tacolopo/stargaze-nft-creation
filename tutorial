@@ -1,0 +1,82 @@
+YouTube Guide:
+
+Official documentation: https://docs.stargaze.zone/guides/readme
+
+0) Mint a CosmicEmotions NFT to Support us (: https://app.stargaze.zone/launchpad/stars19xjvf4gprddegglhp8g2p007kkzta3l89el28kflwjncaknsmekqemnjzy
+
+0.5) Tutorial Docs: https://github.com/tacolopo/stargaze-nft-creation
+
+1) Add Keplr to Brave
+https://chrome.google.com/webstore/detail/keplr/dmkamcknogkgcdfhhbddcghachkejeap
+
+2) Install Homebrew:
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+
+3) Finish installing brew
+echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> /Users/userprofile/.zprofile
+eval "$(/opt/homebrew/bin/brew shellenv)"
+
+3) Install node:
+brew install node
+
+4) Install yarn:
+brew install yarn
+
+5) Install CosmWasmJS:
+yarn add cosmwasm
+
+6) Create an nft.storage account:
+https://nft.storage/
+
+7) Clone the sample repository:
+git clone https://github.com/public-awesome/stargaze-tools [my-project-name]
+cd [my-project-name]
+yarn install
+
+8) Create a testnet account:
+yarn account
+
+9) Change config.example.js name to config.js
+
+10) input testnet mnemonics and public address into config.js
+
+11) Join Stargaze discord (https://discord.com/invite/stargaze) and pick the developer role. Then request funds in the faucet channel:
+$request [testnet_address]
+
+12) In config.js, update the collection name, symbol, description, uncomment out royaltyPaymentAddress, uncomment out royaltyShare, change numTokens to your collection size, adjust unitPrice, adjust StartTime to 15-30 minutes in the future.
+
+13) Replace the sample images with your images. Ensure they are in sequential order: 1.png, 2.png, 3.png, etc.
+
+14) Update the metadata files to your liking.
+
+15) Pack Images and Metadata to nft.storage:
+yarn pack-images
+yarn pack-metadata
+
+16) Replace the images CID with the one in “image” in the config.js file. This will be your collection headline photo.
+
+17) Replace the metadata CID with the one in baseTokenUri
+
+18) Instantiate minter contract on testnet:
+yarn minter 
+
+19) Copy and paste the minter and sg721 outputs from yarn minter into the config.js file
+
+20) Test mint to yourself:
+yarn mint --to [your_testnet_address] --batch [number_in_collection]
+
+21) Query contract to ensure success:
+yarn query
+
+22) Check collection on testnet https://testnet.publicawesome.dev/launchpad/minter_contract_address
+
+TO LAUNCH ON MAINNET:
+
+23) Fund your keplr created account with 1001 stars
+
+24) update mnemonic, address, start time, rpc, contract code ids
+
+25) Instantiate mainnet contract
+yarn minter
+
+26) Search contract on mainnet https://app.stargaze.zone/launchpad/minter_contract_address
