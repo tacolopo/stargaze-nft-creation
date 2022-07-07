@@ -43,7 +43,8 @@ yarn account
 11) Join Stargaze discord (https://discord.com/invite/stargaze) and pick the developer role. Then request funds in the faucet channel:
 $request [testnet_address]
 
-12) In config.js, update the collection name, symbol, description, uncomment out royaltyPaymentAddress, uncomment out royaltyShare, change numTokens to your collection size, adjust unitPrice, adjust StartTime to 15-30 minutes in the future.
+12) In config.js, update the collection name, symbol, description, uncomment out royaltyPaymentAddress, uncomment out royaltyShare, change numTokens 
+to your collection size, adjust unitPrice, adjust StartTime to 15-30 minutes in the future.
 
 13) Replace the sample images with your images. Ensure they are in sequential order: 1.png, 2.png, 3.png, etc.
 
